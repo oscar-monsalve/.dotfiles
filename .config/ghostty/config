@@ -1,0 +1,14 @@
+theme = rose-pine
+# theme = vesper
+background = 000000
+
+# Window
+window-save-state = always
+window-padding-color = background
+
+# Fonts
+font-size = 15
+font-feature = -calt
+
+# Keybinds
+keybind = shift+ctrl+r=reload_config
