@@ -1,14 +1,17 @@
+# Window
+window-padding-color = background
 theme = rose-pine
-# theme = vesper
+# theme = tokyonight
 background = 000000
 
-# Window
-window-save-state = always
-window-padding-color = background
-
-# Fonts
+# Font
 font-size = 15
 font-feature = -calt
 
+mouse-hide-while-typing = true
+shell-integration-features = no-cursor
+
 # Keybinds
 keybind = shift+ctrl+r=reload_config
+# keybind = ctrl+d=scroll_page_fractional:0.5
+# keybind = ctrl+u=scroll_page_fractional:-0.5
