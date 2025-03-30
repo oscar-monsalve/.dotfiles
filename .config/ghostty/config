@@ -8,10 +8,13 @@ background = 000000
 font-size = 15
 font-feature = -calt
 
+# Features
 mouse-hide-while-typing = true
 shell-integration-features = no-cursor
+copy-on-select = false
 
 # Keybinds
 keybind = shift+ctrl+r=reload_config
+keybind = ctrl+,=unbind
 # keybind = ctrl+d=scroll_page_fractional:0.5
 # keybind = ctrl+u=scroll_page_fractional:-0.5
