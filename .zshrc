@@ -2,11 +2,13 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your Oh My Zsh installation.
+fpath=($HOME/completion_arduino_cli $fpath)
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="/home/om/bin/:$PATH"
 export PATH="/home/om/.local/bin:$PATH"
-export PATH="$PATH:/opt/nvim-linux64/bin"
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PATH=$PATH:~/.zig
+export PATH=$PATH:~/.arduino_language_server
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
