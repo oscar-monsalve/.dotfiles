@@ -3,6 +3,8 @@ window-padding-color = background
 theme = rose-pine
 # theme = tokyonight
 background = 000000
+# background-opacity = 0.8
+# background-blur = true
 
 # Font
 font-size = 15
