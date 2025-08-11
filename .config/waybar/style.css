@@ -40,6 +40,10 @@
 #bluetooth,
 #pulseaudio,
 #clock,
+#custom-update {
+  min-width: 20px;
+  /* margin: 0 7.5px; */
+}
 #custom-omarchy {
   min-width: 12px;
   margin: 0 7.5px;
