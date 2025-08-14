@@ -6,8 +6,8 @@ fpath=($HOME/completion_arduino_cli $fpath)
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="/home/om/bin/:$PATH"
 export PATH="/home/om/.local/bin:$PATH"
-export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 export PATH=$PATH:~/.zig
+export PATH=$PATH:~/.local/scripts
 export PATH=$PATH:~/.arduino_language_server
 
 # Set name of the theme to load --- if set to "random", it will
@@ -110,6 +110,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vim="nvim"
+
+# Keybind for tmux-sessionizer
+bindkey -s ^f "tmux-sessionizer\n"
 
 # Set up fzf key bindings and fuzzy completion
 source <()
