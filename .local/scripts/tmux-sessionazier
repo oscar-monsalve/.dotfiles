@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Use the following to maje this script executable:
+# Make it executable:
 # chmod +x ~/.local/scripts/tmux-sessionizer
 
 if [[ $# -eq 1 ]]; then
