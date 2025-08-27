@@ -9,6 +9,8 @@ export PATH="/home/om/.local/bin:$PATH"
 export PATH=$PATH:~/.zig
 export PATH=$PATH:~/.local/scripts
 export PATH=$PATH:~/.arduino_language_server
+# command to add OMARCHY_PATH as a system-wide variable -> echo 'OMARCHY_PATH=/home/youruser/.local/share/omarchy' | sudo tee -a /etc/environment
+export OMARCHY_PATH="$HOME/.local/share/omarchy"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -111,7 +113,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim="nvim"
 
-# Keybind for tmux-sessionizer
+# Keybind for tmux-sessionizer (ctrl-f)
 bindkey -s ^f "tmux-sessionizer\n"
 
 # Set up fzf key bindings and fuzzy completion
