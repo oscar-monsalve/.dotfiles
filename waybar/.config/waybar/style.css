@@ -39,24 +39,21 @@
 #network,
 #bluetooth,
 #pulseaudio,
+#custom-music,
 #clock,
+#custom-omarchy,
 #custom-update {
   min-width: 20px;
   /* margin: 0 7.5px; */
 }
-#custom-omarchy {
-  /* min-width: 12px; */
-  /* margin: 0 7.5px; */
+
+#custom-expand-icon {
+  margin-right: 7px;
 }
-#custom-music,
 
 #pulseaudio {
   color: #ea999c;
   border-radius: 5px 0px 0px 5px;
-}
-
-#custom-expand-icon {
-  margin-right: 7px;
 }
 
 #custom-music {
@@ -70,4 +67,8 @@
 
 tooltip {
   padding: 2px;
+}
+
+.hidden {
+  opacity: 0;
 }
