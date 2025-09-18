@@ -17,8 +17,10 @@ confirm-close-surface = false
 resize-overlay = never
 
 # --- Features ---
-mouse-hide-while-typing = true
+# uncomment "shell-integration" to get the block cursor at ghostty startup
+shell-integration = none
 shell-integration-features = no-cursor, no-sudo, no-title
+mouse-hide-while-typing = true
 copy-on-select = false
 
 # --- Cursor stlying ---
