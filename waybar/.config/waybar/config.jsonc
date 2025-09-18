@@ -11,7 +11,8 @@
 
   "modules-center": [
     "clock",
-    "custom/update"
+    "custom/update",
+    "custom/screenrecording-indicator"
   ],
 
   "modules-right": [
@@ -187,6 +188,13 @@
     "format": " ",
     "tooltip": false
   },
+
+  "custom/screenrecording-indicator": {
+      "on-click": "omarchy-cmd-screenrecord",
+      "exec": "$OMARCHY_PATH/default/waybar/indicators/screen-recording.sh",
+      "signal": 8,
+      "return-type": "json"
+    },
 
   "tray": {
     "icon-size": 16,
