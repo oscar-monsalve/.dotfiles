@@ -1,21 +1,31 @@
-# Window
-window-padding-color = background
-theme = rose-pine
+# --- Dynamic theme colors for Omarchy ---
+config-file = ?"~/.config/omarchy/current/theme/ghostty.conf"
+# theme = rose-pine
+# theme = rose-pine-moon
 # theme = tokyonight
-background = 000000
-background-opacity = 0.9
-# background-blur = true
 
-# Font
+# --- Font ---
 font-size = 15
 font-feature = -calt
 
-# Features
+# --- Window ---
+window-padding-color = background
+background = 000000
+background-opacity = 0.85
+background-blur = false
+confirm-close-surface = false
+resize-overlay = never
+
+# --- Features ---
 mouse-hide-while-typing = true
-shell-integration-features = no-cursor
+shell-integration-features = no-cursor, no-sudo, no-title
 copy-on-select = false
 
-# Keybinds
+# --- Cursor stlying ---
+cursor-style = block
+cursor-style-blink = false
+
+# --- Keybinds ---
 keybind = shift+ctrl+r=reload_config
 keybind = ctrl+,=unbind
 # keybind = ctrl+d=scroll_page_fractional:0.5
