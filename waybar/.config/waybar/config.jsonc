@@ -90,7 +90,7 @@
   "clock": {
     "format": "{:%d %B %H:%M}",
     // "format-alt": "{:%A W%V}",
-    "tooltip-format": "<span size='14pt'><tt>{calendar}</tt></span>",
+    "tooltip-format": "<span size='14pt'><tt>{calendar}</tt></span>",  // Size of 12pt for the laptop (15.6'')
     // "locale": "es_CO.UTF-8",
     "locale": "en_GB.UTF-8",
     "calendar": {
