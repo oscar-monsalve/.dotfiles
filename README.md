@@ -22,11 +22,8 @@ stow -v -t ~ zsh tmux waybar hypr ghostty walker pycodestyle scripts
 
 Stow flags:
 
--t DIR
---target=DIR
-   Set the target directory to "DIR" instead of the parent of the stow directory.
+-t DIR (--target=DIR): Set the target directory to "DIR" instead of the parent of the stow directory.
 
--v
---verbose[=N]
-   Send verbose output to standard error describing what Stow is doing. Verbosity levels are from  0  to  5;  0
-   is  the  default. Using  "-v"  or "--verbose" increases the verbosity by one; using ‘--verbose=N' sets it to N.
+-v (--verbose[=N]): Send verbose output to standard error describing what Stow is doing. Verbosity levels are from
+0  to  5;  0  is  the  default. Using  "-v"  or "--verbose" increases the verbosity by one; using ‘--verbose=N'
+sets it to N.
