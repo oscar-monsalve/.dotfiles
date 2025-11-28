@@ -4,8 +4,8 @@
   background-color: @background;
   color: @foreground;
 
-  font-family: CaskaydiaMono Nerd Font;
-  /* font-family: Jetbrainsmono Nerd Font; */
+  font-family: 'Jetbrainsmono Nerd Font';
+  /* font-family: CaskaydiaMono Nerd Font; */
   font-size: 17px;  /* size of 16px for the laptop (15.6'')*/
   min-height: 0;
   border: none;
