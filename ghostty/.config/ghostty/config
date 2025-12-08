@@ -27,6 +27,9 @@ copy-on-select = false
 cursor-style = block
 cursor-style-blink = false
 
+# Disable Ctrl+Enter fullscreen keybind
+keybind = ctrl+enter=unbind
+
 # --- Keybinds ---
 keybind = shift+ctrl+r=reload_config
 keybind = ctrl+,=unbind
