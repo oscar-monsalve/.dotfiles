@@ -14,12 +14,15 @@ toggle_exact = ["ctrl e"]
 resume_last_query = ["ctrl r"]
 quick_activate = []
 
+[columns]
+symbols = 1 # providers to be queried by default
+
 [providers]
 max_results = 256 # 256 should be enough for everyone
 default = [
   "desktopapplications",
   "websearch",
-] # providers to be queried by default
+]
 
 [[providers.prefixes]]
 prefix = "/"
