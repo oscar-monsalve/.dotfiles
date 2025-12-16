@@ -134,7 +134,7 @@
 
   "battery": {
       "format": "{capacity}% {icon}",
-      "format-discharging": "{icon}",
+      "format-discharging": "{capacity}% {icon}",
       "format-charging": "{icon}",
       "format-plugged": "",
       "format-icons": {
@@ -153,10 +153,10 @@
     },
 
   "bluetooth": {
-    "format": "",
-    "format-disabled": "󰂲",
-    "format-off": "󰂲",
-    "format-connected": "󰂱",
+    "format-on": "",
+    "format-off": "!󰂲",
+    "format-connected": "",
+    // "format-connected": "󰂱",
     "format-no-controller": "",
     "tooltip-format": "Devices connected: {num_connections}",
     "on-click": "omarchy-launch-bluetooth"
