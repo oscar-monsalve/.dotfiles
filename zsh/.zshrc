@@ -135,3 +135,6 @@ export FZF_CTRL_R_OPTS="
 
 . "$HOME/.local/share/../bin/env"
 eval "$(uv generate-shell-completion zsh)"
+
+# opencode
+export PATH=/home/om/.opencode/bin:$PATH
