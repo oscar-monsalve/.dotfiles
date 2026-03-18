@@ -27,11 +27,17 @@ copy-on-select = false
 cursor-style = block
 cursor-style-blink = false
 
-# Disable Ctrl+Enter fullscreen keybind
-keybind = ctrl+enter=unbind
-
 # --- Keybinds ---
 keybind = shift+ctrl+r=reload_config
 keybind = ctrl+,=unbind
 # keybind = ctrl+d=scroll_page_fractional:0.5
 # keybind = ctrl+u=scroll_page_fractional:-0.5
+
+# Disable Ctrl+Enter fullscreen keybind
+keybind = ctrl+enter=unbind
+
+# Slowdown mouse scrolling
+mouse-scroll-multiplier = 0.95
+
+# Fix general slowness on hyprland (https://github.com/ghostty-org/ghostty/discussions/3224)
+async-backend = epoll
