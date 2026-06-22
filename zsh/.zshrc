@@ -139,3 +139,6 @@ eval "$(uv generate-shell-completion zsh)"
 
 # opencode
 export PATH=/home/om/.opencode/bin:$PATH
+
+# OpenFOAM environment helper
+[[ -r /etc/profile.d/openfoam-com.sh ]] && source /etc/profile.d/openfoam-com.sh
