@@ -8,7 +8,6 @@ export PATH="/home/om/bin/:$PATH"
 export PATH="/home/om/.local/bin:$PATH"
 export PATH=$PATH:~/.zig
 export PATH=$PATH:~/.local/scripts
-export PATH=$PATH:~/.arduino_language_server
 # command to add OMARCHY_PATH as a system-wide variable -> echo 'OMARCHY_PATH=/home/youruser/.local/share/omarchy' | sudo tee -a /etc/environment
 export OMARCHY_PATH="$HOME/.local/share/omarchy"
 
@@ -113,6 +112,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias vim="nvim"
 alias code="opencode"
+alias arduino="arduino-cli"
 
 # Keybind for tmux-sessionizer (ctrl-f)
 bindkey -s ^f "tmux-sessionizer\n"
