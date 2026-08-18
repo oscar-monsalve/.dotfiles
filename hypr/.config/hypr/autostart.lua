@@ -1,5 +1,9 @@
 -- Extra autostart processes.
 -- o.launch_on_start("my-service")
 
--- Ensure focus starts on workspace 2 (Added by Oscar)
-o.exec_on_start("hyprctl dispatch workspace 2")
+-- Ensure worspace 2 is focued at startup (added by Oscar).
+hl.on("hyprland.start", function()
+  hl.timer(function()
+    hl.dispatch(hl.dsp.focus({ workspace = "2" }))
+  end, { timeout = 1000, type = "oneshot" })
+end)
