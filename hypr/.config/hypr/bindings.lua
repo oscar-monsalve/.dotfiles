@@ -53,6 +53,8 @@ o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate!)", "uwsm app -- qalculate-gt
 o.bind("SUPER + SHIFT + T", "btop TUI", { tui = "btop" })
 o.bind("SUPER + SHIFT + CTRL + B", "Browser (private)", { omarchy = "browser --private" })
 
+-- Plugings
+
 -- Webapps
 o.bind("SUPER + SHIFT + G", "WhatsApp", { webapp = "https://web.whatsapp.com/", focus = true })
 o.bind("SUPER + SHIFT + O", "Onedrive", "omarchy-launch-webapp 'https://onedrive.live.com/my?id=%2Fpersonal%2Fd6dfb99c85201cab%2FDocuments%2FITM%2F2%2E%20Teaching%2F2%2E%20Catedra'")
