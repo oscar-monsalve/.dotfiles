@@ -8,8 +8,8 @@ export PATH="/home/om/bin/:$PATH"
 export PATH="/home/om/.local/bin:$PATH"
 export PATH=$PATH:~/.zig
 export PATH=$PATH:~/.local/scripts
-# command to add OMARCHY_PATH as a system-wide variable -> echo 'OMARCHY_PATH=/home/youruser/.local/share/omarchy' | sudo tee -a /etc/environment
-export OMARCHY_PATH="$HOME/.local/share/omarchy"
+# Omarchy Quattro is package-managed under /usr/share.
+export OMARCHY_PATH="/usr/share/omarchy"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
