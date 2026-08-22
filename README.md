@@ -17,7 +17,7 @@ directories if they do not exist. There will be no problem if the directories ar
 Use the following stow command once in the ```/.dotfiles``` directory.
 
 ```shell
-stow -v -t ~ zsh tmux waybar hypr ghostty walker pycodestyle scripts
+stow -v -t ~ zsh tmux hypr ghostty pycodestyle scripts
 ```
 
 Stow flags:
