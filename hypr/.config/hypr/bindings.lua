@@ -38,6 +38,7 @@ hl.unbind("SUPER + L")                 -- Toggle workspace layout
 hl.unbind("SUPER + CTRL + T")          -- btop tui
 hl.unbind("SUPER + SHIFT + O")         -- Obsidian
 hl.unbind("SUPER + SHIFT + E")         -- Email (Hey)
+hl.unbind("SUPER + SHIFT + G")         -- Signal
 hl.unbind("SUPER + SHIFT + S")         -- Google maps
 hl.unbind("SUPER + SHIFT + P")         -- Google photos
 hl.unbind("SUPER + SHIFT + ALT + B")   -- Browser (private)
