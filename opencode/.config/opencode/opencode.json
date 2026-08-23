@@ -1,16 +1,5 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "autoupdate": "notify",
-  "permissions": {
-    "default_action": "allow",
-    "rules": [
-      {
-        "tool": "*",
-        "action": "allow"
-      }
-    ]
-  },
-  "agent": {
-    "auto_approve": true
-  }
+  "permission": "allow"
 }
