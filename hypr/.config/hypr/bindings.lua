@@ -54,7 +54,9 @@ o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate!)", "uwsm app -- qalculate-gt
 o.bind("SUPER + SHIFT + T", "btop TUI", { tui = "btop" })
 o.bind("SUPER + SHIFT + CTRL + B", "Browser (private)", { omarchy = "browser --private" })
 
--- Plugings
+-- Plugins
+-- Omarchy Find file search overlay
+o.bind("ALT + SPACE", "Find files & folders", "omarchy-shell shell toggle jesseburlamaque.omarchy-find")
 
 -- Webapps
 o.bind("SUPER + SHIFT + G", "WhatsApp", { webapp = "https://web.whatsapp.com/", focus = true })
