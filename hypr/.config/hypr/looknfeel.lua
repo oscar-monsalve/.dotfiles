@@ -74,10 +74,13 @@ o.window("^gnuplot_qt$", {
   float = true,
 })
 
--- Keep Matplotlib figure windows floating at their default size.
+-- Keep Matplotlib figure windows opaque and centered at their default size.
 o.window({
-  class = "^python3$",
+  class = "^(Matplotlib|python3|org\\.matplotlib\\.Matplotlib3)$",
   title = "^Figure [0-9]+$",
 }, {
+  tag = "-default-opacity",
   float = true,
+  center = true,
+  opacity = "1 1",
 })
