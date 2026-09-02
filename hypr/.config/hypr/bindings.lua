@@ -50,8 +50,8 @@ hl.unbind("SUPER + SHIFT + CTRL + G")  -- Google messages
 o.bind("ALT + K", "Show key bindings", "omarchy-menu-keybindings")
 
 -- Apps
-o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate!)", "uwsm app -- qalculate-gtk")
--- o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate!)", {tui = "qalculate-gtk"})
+o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate! Qt)", { launch = "qalculate-qt" })
+-- o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate!)", {tui = "qalculate-gt"})
 o.bind("SUPER + SHIFT + T", "btop TUI", { tui = "btop" })
 o.bind("SUPER + SHIFT + CTRL + B", "Browser (private)", { omarchy = "browser --private" })
 
