@@ -113,6 +113,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias code="opencode"
 alias arduino="arduino-cli"
+alias clang++="clang++ -std=c++26"
 
 # Keybind for tmux-sessionizer (ctrl-f)
 bindkey -s ^f "tmux-sessionizer\n"
