@@ -1,2 +1,10 @@
+If:
+  PathExclude: (./arduino-language-server./build/.|./[.]arduino15/packages/.|./Arduino/libraries/.*)
 CompileFlags:
   Add: [-std=c++26]
+
+---
+If:
+  PathMatch: (./arduino-language-server./build/.|./[.]arduino15/packages/.|./Arduino/libraries/.*)
+CompileFlags:
+  Add: [-nostdlibinc]
