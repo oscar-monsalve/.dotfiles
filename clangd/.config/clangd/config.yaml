@@ -1,10 +1,18 @@
 If:
-  PathExclude: (./arduino-language-server./build/.|./[.]arduino15/packages/.|./Arduino/libraries/.*)
+  PathMatch: '.*[.](cpp|cc|cxx|C|hpp|hh|hxx|H)'
+  PathExclude:
+    - '.*/arduino-language-server[^/]*/build/.*'
+    - '/home/om/[.]arduino15/packages/.*'
+    - '/home/om/Arduino/libraries/.*'
+    - '.*[.]ino[.]cpp'
 CompileFlags:
   Add: [-std=c++26]
 
 ---
 If:
-  PathMatch: (./arduino-language-server./build/.|./[.]arduino15/packages/.|./Arduino/libraries/.*)
+  PathMatch:
+    - '.*/arduino-language-server[^/]*/build/.*'
+    - '/home/om/[.]arduino15/packages/.*'
+    - '/home/om/Arduino/libraries/.*'
 CompileFlags:
   Add: [-nostdlibinc]
