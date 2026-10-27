@@ -8,8 +8,12 @@ export PATH="/home/om/bin/:$PATH"
 export PATH="/home/om/.local/bin:$PATH"
 export PATH=$PATH:~/.zig
 export PATH=$PATH:~/.local/scripts
+# opencode
+export PATH=/home/om/.opencode/bin:$PATH
 # Omarchy Quattro is package-managed under /usr/share.
 export OMARCHY_PATH="/usr/share/omarchy"
+# gf2: frontend DBG debugger
+export PATH=$PATH:/home/om/personal/software/gf
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time Oh My Zsh is loaded, in which case,
@@ -77,7 +81,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
@@ -137,9 +141,6 @@ export FZF_CTRL_R_OPTS="
 
 . "$HOME/.local/share/../bin/env"
 eval "$(uv generate-shell-completion zsh)"
-
-# opencode
-export PATH=/home/om/.opencode/bin:$PATH
 
 # OpenFOAM environment helper
 [[ -r /etc/profile.d/openfoam-com.sh ]] && source /etc/profile.d/openfoam-com.sh
