@@ -45,6 +45,7 @@ hl.unbind("SUPER + SHIFT + S")         -- Google maps
 hl.unbind("SUPER + SHIFT + ALT + B")   -- Browser (private)
 hl.unbind("SUPER + SHIFT + ALT + G")   -- WhatsApp
 hl.unbind("SUPER + SHIFT + CTRL + G")  -- Google messages
+hl.unbind("ALT + TAB")                 -- Remove window cycling and raising the active window.
 
 -- Menus
 o.bind("ALT + K", "Show key bindings", "omarchy-menu-keybindings")
@@ -78,6 +79,9 @@ o.bind("SUPER + SHIFT + CTRL + E", "Work Email", "omarchy-launch-webapp 'https:/
 
 -- Tiling
 o.bind("SUPER + SHIFT + S", "Toggle window split", hl.dsp.layout("togglesplit"))
+
+-- Cycle monitors with ALT + TAB, alongside the default CTRL + ALT + TAB.
+o.bind("ALT + TAB", "Focus on next monitor", hl.dsp.focus({ monitor = "+1" }))
 
 -- Move focus with SUPER + hjkl
 o.bind("SUPER + H", "Focus on left window", hl.dsp.focus({ direction = "l" }))
