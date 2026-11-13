@@ -12,7 +12,16 @@ hl.env("GDK_SCALE", tostring(omarchy_gdk_scale))
 -- Portrait/rotated secondary monitor (transform: 1 = 90°, 3 = 270°).
 -- hl.monitor({ output = "DP-2", mode = "preferred", position = "auto", scale = 1, transform = 1 })
 
+
 -- ---- Configs added by Oscar ----
+
+-- Place the startup cursor and focus on the right monitor as it initializes.
+hl.config({
+  cursor = {
+    default_monitor = "HDMI-A-1",
+  },
+})
+
 hl.monitor({
     output = "HDMI-A-1",
     mode = "1920x1080@60",
