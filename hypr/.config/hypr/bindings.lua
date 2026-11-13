@@ -35,13 +35,13 @@
 hl.unbind("SUPER + J")                 -- Toggle window split
 hl.unbind("SUPER + K")                 -- Show key bindings
 hl.unbind("SUPER + L")                 -- Toggle workspace layout
+hl.unbind("SUPER + SHIFT + Q")         -- Omacalc
 hl.unbind("SUPER + SHIFT + D")         -- Docker
 hl.unbind("SUPER + SHIFT + E")         -- Email (Hey)
 hl.unbind("SUPER + SHIFT + G")         -- Signal
 hl.unbind("SUPER + SHIFT + O")         -- Obsidian
 hl.unbind("SUPER + SHIFT + P")         -- Google photos
 hl.unbind("SUPER + SHIFT + S")         -- Google maps
-hl.unbind("SUPER + CTRL + T")          -- btop tui
 hl.unbind("SUPER + SHIFT + ALT + B")   -- Browser (private)
 hl.unbind("SUPER + SHIFT + ALT + G")   -- WhatsApp
 hl.unbind("SUPER + SHIFT + CTRL + G")  -- Google messages
@@ -52,7 +52,6 @@ o.bind("ALT + K", "Show key bindings", "omarchy-menu-keybindings")
 -- Apps
 o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate! Qt)", { launch = "qalculate-qt" })
 -- o.bind("SUPER + SHIFT + Q", "Calculator (Qalculate!)", {tui = "qalculate-gt"})
-o.bind("SUPER + SHIFT + T", "btop TUI", { tui = "btop" })
 o.bind("SUPER + SHIFT + CTRL + B", "Browser (private)", { omarchy = "browser --private" })
 
 -- flea --default: begin. Written by `flea --default`; `flea --default off` removes the block whole.
@@ -69,6 +68,7 @@ o.window("com.thisisgm.flea.picker", { tag = "+floating-window" })
 -- Plugins
 -- Omarchy Find file search overlay
 o.bind("ALT + SPACE", "Find files & folders", "omarchy-shell shell toggle jesseburlamaque.omarchy-find")
+
 
 -- Webapps
 o.bind("SUPER + SHIFT + G", "WhatsApp", { webapp = "https://web.whatsapp.com/", focus = true })
