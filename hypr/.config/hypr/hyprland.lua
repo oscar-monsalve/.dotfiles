@@ -27,9 +27,6 @@ require("default.hypr.toggles")
 
 
 -- ---- Configs added by Oscar ----
--- Keep the first two workspaces on their preferred monitors.
-hl.workspace_rule({ workspace = "1", monitor = "DVI-D-1" })
-hl.workspace_rule({ workspace = "2", monitor = "HDMI-A-1" })
 
 -- Keep MEGA's fixed-size status panel floating at the monitor's top-right.
 o.window({
